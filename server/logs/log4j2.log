@@ -1,0 +1,1209 @@
+2022-06-19 09:11:11,673 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:11:12,171 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@41f69e84
+2022-06-19 09:11:12,268 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:11:12,436 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@18317edc
+2022-06-19 09:11:12,449 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:11:12,759 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:11:12,826 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@62656be4
+2022-06-19 09:11:12,834 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 09:11:12,839 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:11:12,962 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:16:22,674 INFO s.Launcher [main] Connected to /127.0.0.1:61417
+2022-06-19 09:16:22,855 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61417], selector=sun.nio.ch.WindowsSelectorImpl@7b8b43c7, interestOps=1, readyOps=1
+2022-06-19 09:16:22,856 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 09:16:22,971 INFO s.Launcher [Thread-0] Request net.Request@35aeca52
+2022-06-19 09:16:23,066 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 09:16:23,068 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 09:16:23,069 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:61417
+2022-06-19 09:16:26,629 INFO s.Launcher [main] Connected to /127.0.0.1:61418
+2022-06-19 09:16:26,631 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61418], selector=sun.nio.ch.WindowsSelectorImpl@7b8b43c7, interestOps=1, readyOps=1
+2022-06-19 09:16:26,633 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 09:16:26,647 INFO s.Launcher [Thread-1] Request net.Request@1d1c5503
+2022-06-19 09:16:26,714 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 09:16:26,715 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 09:16:26,716 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:61418
+2022-06-19 09:16:41,686 INFO s.Launcher [main] Connected to /127.0.0.1:61419
+2022-06-19 09:16:41,741 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61419], selector=sun.nio.ch.WindowsSelectorImpl@7b8b43c7, interestOps=1, readyOps=1
+2022-06-19 09:16:41,742 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 09:16:41,792 INFO s.Launcher [Thread-2] Request net.Request@6b91222b
+2022-06-19 09:16:53,594 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@3e02167e
+2022-06-19 09:16:54,376 ERROR r.PostgreRepository [pool-6-thread-1] ERROR: INSERT has more expressions than target columns
+  Позиция: 117
+2022-06-19 09:26:05,621 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:26:05,875 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:26:05,923 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:26:05,988 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 09:26:05,994 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:26:06,176 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:26:06,248 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 09:26:06,290 FATAL r.PostgreRepository [main] org.postgresql.util.PSQLException: ERROR: relation "public.humanbeing" does not exist
+  Позиция: 15
+2022-06-19 09:26:06,290 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:26:06,412 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:28:26,574 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:28:26,872 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:28:26,912 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:28:26,987 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 09:28:26,992 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:28:27,201 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:28:27,293 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 09:28:27,337 FATAL r.PostgreRepository [main] org.postgresql.util.PSQLException: ERROR: relation "public.humanbeing" does not exist
+  Позиция: 15
+2022-06-19 09:28:27,338 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:28:27,502 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:30:39,368 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:30:39,824 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:30:39,900 FATAL j.DBEngine [main] org.postgresql.util.PSQLException: ERROR: syntax error at or near "PRECISION"
+  Позиция: 313
+2022-06-19 09:34:53,960 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:34:54,309 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:34:54,416 INFO j.DBEngine [main] Creating public.humanbeing table
+2022-06-19 09:34:54,422 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:34:54,496 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 09:34:54,500 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:34:54,654 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:34:54,847 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 09:34:54,852 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 09:34:54,857 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:34:55,050 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:35:14,182 INFO s.Launcher [main] Connected to /127.0.0.1:63266
+2022-06-19 09:35:14,238 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63266], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 09:35:14,240 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 09:35:14,381 INFO s.Launcher [Thread-0] Request net.Request@450ef572
+2022-06-19 09:35:14,482 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 09:35:14,484 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 09:35:14,485 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:63266
+2022-06-19 09:35:31,270 INFO s.Launcher [main] Connected to /127.0.0.1:60778
+2022-06-19 09:35:31,275 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60778], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 09:35:31,277 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 09:35:31,365 INFO s.Launcher [Thread-1] Request net.Request@8e0a0
+2022-06-19 09:35:35,831 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@ea0d389
+2022-06-19 09:35:36,459 ERROR r.PostgreRepository [pool-4-thread-1] ERROR: column "car_cool" is of type boolean but expression is of type character varying
+  Подсказка: You will need to rewrite or cast the expression.
+  Позиция: 95
+2022-06-19 09:37:03,193 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:37:03,497 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:37:03,541 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:37:03,719 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 09:37:03,725 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:37:03,894 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:37:03,966 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 09:37:03,970 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 09:37:03,974 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:37:04,080 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:37:05,233 INFO s.Launcher [main] Connected to /127.0.0.1:57782
+2022-06-19 09:37:05,241 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57782], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 09:37:05,243 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 09:37:05,393 INFO s.Launcher [Thread-0] Request net.Request@450ef572
+2022-06-19 09:37:05,458 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 09:37:05,459 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 09:37:05,460 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:57782
+2022-06-19 09:37:24,351 INFO s.Launcher [main] Connected to /127.0.0.1:56410
+2022-06-19 09:37:24,352 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:56410], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 09:37:24,353 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 09:37:24,406 INFO s.Launcher [Thread-1] Request net.Request@8e0a0
+2022-06-19 09:37:28,742 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@ea0d389
+2022-06-19 09:37:29,379 ERROR r.PostgreRepository [pool-4-thread-1] Cannot commit when autoCommit is enabled.
+2022-06-19 09:37:58,067 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 09:37:58,308 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 09:37:58,349 INFO l.UserManager [main] Loading login manager...
+2022-06-19 09:37:58,421 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 09:37:58,426 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 09:37:58,560 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 09:37:58,757 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 09:37:58,799 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 09:37:58,822 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 09:37:58,985 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 09:38:25,845 INFO s.Launcher [main] Connected to /127.0.0.1:58277
+2022-06-19 09:38:25,891 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58277], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:38:25,893 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 09:38:26,036 INFO s.Launcher [Thread-0] Request net.Request@4f789fb5
+2022-06-19 09:38:26,143 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 09:38:26,144 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 09:38:26,145 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:58277
+2022-06-19 09:38:31,885 INFO s.Launcher [main] Connected to /127.0.0.1:57224
+2022-06-19 09:38:31,887 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57224], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:38:31,888 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 09:38:31,890 INFO s.Launcher [Thread-1] Request net.Request@2a3a988f
+2022-06-19 09:38:31,897 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 09:38:31,898 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 09:38:31,899 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:57224
+2022-06-19 09:38:34,904 INFO s.Launcher [main] Connected to /127.0.0.1:57369
+2022-06-19 09:38:34,906 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57369], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:38:34,907 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 09:38:34,910 INFO s.Launcher [Thread-2] Request net.Request@520aab30
+2022-06-19 09:38:34,919 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 09:38:34,921 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 09:38:34,921 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:57369
+2022-06-19 09:38:50,009 INFO s.Launcher [main] Connected to /127.0.0.1:59125
+2022-06-19 09:38:50,010 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59125], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:38:50,011 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 09:38:50,013 INFO s.Launcher [Thread-3] Request net.Request@60a6875c
+2022-06-19 09:38:50,019 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 09:38:50,020 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 09:38:50,021 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:59125
+2022-06-19 09:39:25,673 INFO s.Launcher [main] Connected to /127.0.0.1:53521
+2022-06-19 09:39:25,835 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:53521], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:39:25,835 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 09:39:25,837 INFO s.Launcher [Thread-4] Request net.Request@106dc5e6
+2022-06-19 09:39:25,840 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 09:39:25,840 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 09:39:25,841 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:53521
+2022-06-19 09:39:28,594 INFO s.Launcher [main] Connected to /127.0.0.1:64979
+2022-06-19 09:39:28,595 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:64979], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:39:28,597 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 09:39:28,601 INFO s.Launcher [Thread-5] Request net.Request@790e644f
+2022-06-19 09:39:28,609 INFO m.ResponseSender [pool-13-thread-1] Sending response...
+2022-06-19 09:39:28,610 INFO m.ResponseSender [pool-13-thread-1] Packages number: 1
+2022-06-19 09:39:28,611 INFO m.ResponseSender [pool-13-thread-1] Disconnecting from /127.0.0.1:64979
+2022-06-19 09:39:32,652 INFO s.Launcher [main] Connected to /127.0.0.1:53541
+2022-06-19 09:39:32,653 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:53541], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:39:32,697 INFO s.Launcher [Thread-6] Processing new request on Thread-6
+2022-06-19 09:39:32,700 INFO s.Launcher [Thread-6] Request net.Request@499d64c5
+2022-06-19 09:39:32,705 INFO m.ResponseSender [pool-15-thread-1] Sending response...
+2022-06-19 09:39:32,706 INFO m.ResponseSender [pool-15-thread-1] Packages number: 1
+2022-06-19 09:39:32,707 INFO m.ResponseSender [pool-15-thread-1] Disconnecting from /127.0.0.1:53541
+2022-06-19 09:42:04,967 INFO s.Launcher [main] Connected to /127.0.0.1:59003
+2022-06-19 09:42:05,266 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59003], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:42:05,267 INFO s.Launcher [Thread-7] Processing new request on Thread-7
+2022-06-19 09:42:05,268 INFO s.Launcher [Thread-7] Request net.Request@5817fe32
+2022-06-19 09:42:05,271 INFO m.ResponseSender [pool-17-thread-1] Sending response...
+2022-06-19 09:42:05,272 INFO m.ResponseSender [pool-17-thread-1] Packages number: 1
+2022-06-19 09:42:05,272 INFO m.ResponseSender [pool-17-thread-1] Disconnecting from /127.0.0.1:59003
+2022-06-19 09:42:09,895 INFO s.Launcher [main] Connected to /127.0.0.1:49695
+2022-06-19 09:42:09,899 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49695], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:42:09,900 INFO s.Launcher [Thread-8] Processing new request on Thread-8
+2022-06-19 09:42:09,901 INFO s.Launcher [Thread-8] Request net.Request@216b844
+2022-06-19 09:42:09,907 INFO m.ResponseSender [pool-19-thread-1] Sending response...
+2022-06-19 09:42:09,909 INFO m.ResponseSender [pool-19-thread-1] Packages number: 1
+2022-06-19 09:42:09,910 INFO m.ResponseSender [pool-19-thread-1] Disconnecting from /127.0.0.1:49695
+2022-06-19 09:42:48,295 INFO s.Launcher [main] Connected to /127.0.0.1:52573
+2022-06-19 09:42:48,296 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52573], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:42:48,297 INFO s.Launcher [Thread-9] Processing new request on Thread-9
+2022-06-19 09:42:48,299 INFO s.Launcher [Thread-9] Request net.Request@5cf3c5a2
+2022-06-19 09:42:48,304 INFO m.ResponseSender [pool-21-thread-1] Sending response...
+2022-06-19 09:42:48,306 INFO m.ResponseSender [pool-21-thread-1] Packages number: 1
+2022-06-19 09:42:48,306 INFO m.ResponseSender [pool-21-thread-1] Disconnecting from /127.0.0.1:52573
+2022-06-19 09:45:36,510 INFO s.Launcher [main] Connected to /127.0.0.1:55267
+2022-06-19 09:45:36,512 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55267], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:45:36,514 INFO s.Launcher [Thread-10] Processing new request on Thread-10
+2022-06-19 09:45:36,518 INFO s.Launcher [Thread-10] Request net.Request@3889f9fd
+2022-06-19 09:45:36,525 INFO m.ResponseSender [pool-23-thread-1] Sending response...
+2022-06-19 09:45:36,525 INFO m.ResponseSender [pool-23-thread-1] Packages number: 1
+2022-06-19 09:45:36,526 INFO m.ResponseSender [pool-23-thread-1] Disconnecting from /127.0.0.1:55267
+2022-06-19 09:49:17,273 INFO s.Launcher [main] Connected to /127.0.0.1:61003
+2022-06-19 09:49:17,503 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61003], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:49:17,504 INFO s.Launcher [Thread-11] Processing new request on Thread-11
+2022-06-19 09:49:17,506 INFO s.Launcher [Thread-11] Request net.Request@52cbd2a7
+2022-06-19 09:49:17,508 INFO m.ResponseSender [pool-25-thread-1] Sending response...
+2022-06-19 09:49:17,509 INFO m.ResponseSender [pool-25-thread-1] Packages number: 1
+2022-06-19 09:49:17,510 INFO m.ResponseSender [pool-25-thread-1] Disconnecting from /127.0.0.1:61003
+2022-06-19 09:49:26,924 INFO s.Launcher [main] Connected to /127.0.0.1:55885
+2022-06-19 09:49:26,928 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55885], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:49:26,932 INFO s.Launcher [Thread-12] Processing new request on Thread-12
+2022-06-19 09:49:26,942 INFO s.Launcher [Thread-12] Request net.Request@4ae00f27
+2022-06-19 09:49:26,949 INFO m.ResponseSender [pool-27-thread-1] Sending response...
+2022-06-19 09:49:26,950 INFO m.ResponseSender [pool-27-thread-1] Packages number: 1
+2022-06-19 09:49:26,951 INFO m.ResponseSender [pool-27-thread-1] Disconnecting from /127.0.0.1:55885
+2022-06-19 09:50:25,371 INFO s.Launcher [main] Connected to /127.0.0.1:50323
+2022-06-19 09:50:25,373 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50323], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:50:25,411 INFO s.Launcher [Thread-13] Processing new request on Thread-13
+2022-06-19 09:50:25,413 INFO s.Launcher [Thread-13] Request net.Request@1edcf564
+2022-06-19 09:50:25,419 INFO m.ResponseSender [pool-29-thread-1] Sending response...
+2022-06-19 09:50:25,419 INFO m.ResponseSender [pool-29-thread-1] Packages number: 1
+2022-06-19 09:50:25,420 INFO m.ResponseSender [pool-29-thread-1] Disconnecting from /127.0.0.1:50323
+2022-06-19 09:52:31,162 INFO s.Launcher [main] Connected to /127.0.0.1:64221
+2022-06-19 09:52:31,164 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:64221], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:52:31,165 INFO s.Launcher [Thread-14] Processing new request on Thread-14
+2022-06-19 09:52:31,166 INFO s.Launcher [Thread-14] Request net.Request@a8856f4
+2022-06-19 09:52:31,203 INFO m.ResponseSender [pool-31-thread-1] Sending response...
+2022-06-19 09:52:31,204 INFO m.ResponseSender [pool-31-thread-1] Packages number: 1
+2022-06-19 09:52:31,204 INFO m.ResponseSender [pool-31-thread-1] Disconnecting from /127.0.0.1:64221
+2022-06-19 09:54:56,630 INFO s.Launcher [main] Connected to /127.0.0.1:62816
+2022-06-19 09:54:56,631 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62816], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:54:56,633 INFO s.Launcher [Thread-15] Processing new request on Thread-15
+2022-06-19 09:54:56,637 INFO s.Launcher [Thread-15] Request net.Request@2229282e
+2022-06-19 09:56:06,934 INFO m.ResponseSender [pool-33-thread-1] Sending response...
+2022-06-19 09:56:06,934 INFO m.ResponseSender [pool-33-thread-1] Packages number: 1
+2022-06-19 09:56:06,937 INFO m.ResponseSender [pool-33-thread-1] Disconnecting from /127.0.0.1:62816
+2022-06-19 09:56:15,243 INFO s.Launcher [main] Connected to /127.0.0.1:64762
+2022-06-19 09:56:15,245 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:64762], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:56:15,246 INFO s.Launcher [Thread-16] Processing new request on Thread-16
+2022-06-19 09:56:15,249 INFO s.Launcher [Thread-16] Request net.Request@5af1463c
+2022-06-19 09:57:42,441 INFO m.ResponseSender [pool-35-thread-1] Sending response...
+2022-06-19 09:57:42,442 INFO m.ResponseSender [pool-35-thread-1] Packages number: 1
+2022-06-19 09:57:42,443 INFO m.ResponseSender [pool-35-thread-1] Disconnecting from /127.0.0.1:64762
+2022-06-19 09:58:22,226 INFO s.Launcher [main] Connected to /127.0.0.1:57559
+2022-06-19 09:58:22,229 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57559], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:58:22,230 INFO s.Launcher [Thread-17] Processing new request on Thread-17
+2022-06-19 09:58:22,234 INFO s.Launcher [Thread-17] Request net.Request@7eb20bd2
+2022-06-19 09:58:44,574 INFO m.ResponseSender [pool-37-thread-1] Sending response...
+2022-06-19 09:58:44,575 INFO m.ResponseSender [pool-37-thread-1] Packages number: 1
+2022-06-19 09:58:44,576 INFO m.ResponseSender [pool-37-thread-1] Disconnecting from /127.0.0.1:57559
+2022-06-19 09:59:13,540 INFO s.Launcher [main] Connected to /127.0.0.1:49719
+2022-06-19 09:59:13,541 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49719], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 09:59:13,549 INFO s.Launcher [Thread-18] Processing new request on Thread-18
+2022-06-19 09:59:13,553 INFO s.Launcher [Thread-18] Request net.Request@40dc5af6
+2022-06-19 10:01:04,195 INFO m.ResponseSender [pool-39-thread-1] Sending response...
+2022-06-19 10:01:04,195 INFO m.ResponseSender [pool-39-thread-1] Packages number: 1
+2022-06-19 10:01:04,196 INFO m.ResponseSender [pool-39-thread-1] Disconnecting from /127.0.0.1:49719
+2022-06-19 10:01:11,386 INFO s.Launcher [main] Connected to /127.0.0.1:63194
+2022-06-19 10:01:11,388 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63194], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:01:11,389 INFO s.Launcher [Thread-19] Processing new request on Thread-19
+2022-06-19 10:01:11,391 INFO s.Launcher [Thread-19] Request net.Request@3ce64872
+2022-06-19 10:03:13,823 INFO m.ResponseSender [pool-41-thread-1] Sending response...
+2022-06-19 10:03:13,824 INFO m.ResponseSender [pool-41-thread-1] Packages number: 1
+2022-06-19 10:03:13,824 INFO m.ResponseSender [pool-41-thread-1] Disconnecting from /127.0.0.1:63194
+2022-06-19 10:03:35,358 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:03:35,585 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:03:35,624 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:03:35,687 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:03:35,691 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:03:35,803 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:03:35,922 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:03:35,927 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:03:35,951 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:03:36,122 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:03:41,458 INFO s.Launcher [main] Connected to /127.0.0.1:57105
+2022-06-19 10:03:41,469 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57105], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:03:41,472 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:03:41,612 INFO s.Launcher [Thread-0] Request net.Request@23ec7798
+2022-06-19 10:03:46,899 ERROR m.RequestHandler [pool-2-thread-1] java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class java.util.ArrayList (java.util.ImmutableCollections$ListN and java.util.ArrayList are in module java.base of loader 'bootstrap')
+2022-06-19 10:06:31,569 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:06:31,806 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:06:31,859 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:06:31,952 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:06:31,957 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:06:32,086 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:06:32,280 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:06:32,285 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:06:32,310 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:06:32,480 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:06:41,748 INFO s.Launcher [main] Connected to /127.0.0.1:63329
+2022-06-19 10:06:41,792 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63329], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:06:41,794 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:06:41,906 INFO s.Launcher [Thread-0] Request net.Request@5b7977ab
+2022-06-19 10:07:47,226 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:07:47,227 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:07:47,227 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:63329
+2022-06-19 10:08:13,418 INFO s.Launcher [main] Connected to /127.0.0.1:62553
+2022-06-19 10:08:13,419 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62553], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:08:13,419 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:08:13,441 INFO s.Launcher [Thread-1] Request net.Request@25ec33ae
+2022-06-19 10:08:26,394 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 10:08:26,394 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 10:08:26,395 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:62553
+2022-06-19 10:09:07,847 INFO s.Launcher [main] Connected to /127.0.0.1:49396
+2022-06-19 10:09:07,848 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49396], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:09:07,849 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 10:09:07,851 INFO s.Launcher [Thread-2] Request net.Request@5aff98a
+2022-06-19 10:09:07,858 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 10:09:07,859 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 10:09:07,859 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:49396
+2022-06-19 10:10:04,832 INFO s.Launcher [main] Connected to /127.0.0.1:52528
+2022-06-19 10:10:04,833 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52528], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:10:04,834 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 10:10:04,835 INFO s.Launcher [Thread-3] Request net.Request@1edcf564
+2022-06-19 10:10:04,841 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 10:10:04,842 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 10:10:04,843 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:52528
+2022-06-19 10:10:36,606 INFO s.Launcher [main] Connected to /127.0.0.1:57508
+2022-06-19 10:10:36,608 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57508], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:10:36,609 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 10:10:36,612 INFO s.Launcher [Thread-4] Request net.Request@a8856f4
+2022-06-19 10:10:36,620 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 10:10:36,624 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 10:10:36,635 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:57508
+2022-06-19 10:14:36,569 INFO s.Launcher [main] Connected to /127.0.0.1:59875
+2022-06-19 10:14:36,820 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59875], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:14:36,821 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 10:14:36,822 INFO s.Launcher [Thread-5] Request net.Request@2229282e
+2022-06-19 10:14:36,825 INFO m.ResponseSender [pool-13-thread-1] Sending response...
+2022-06-19 10:14:36,826 INFO m.ResponseSender [pool-13-thread-1] Packages number: 1
+2022-06-19 10:14:36,827 INFO m.ResponseSender [pool-13-thread-1] Disconnecting from /127.0.0.1:59875
+2022-06-19 10:14:43,512 INFO s.Launcher [main] Connected to /127.0.0.1:63821
+2022-06-19 10:14:43,515 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63821], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:14:43,516 INFO s.Launcher [Thread-6] Processing new request on Thread-6
+2022-06-19 10:14:43,519 INFO s.Launcher [Thread-6] Request net.Request@5af1463c
+2022-06-19 10:14:43,526 INFO m.ResponseSender [pool-15-thread-1] Sending response...
+2022-06-19 10:14:43,527 INFO m.ResponseSender [pool-15-thread-1] Packages number: 1
+2022-06-19 10:14:43,531 INFO m.ResponseSender [pool-15-thread-1] Disconnecting from /127.0.0.1:63821
+2022-06-19 10:15:01,977 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:15:02,212 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:15:02,251 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:15:02,323 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:15:02,328 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:15:02,465 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:15:02,529 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:15:02,532 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:16:36,685 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:16:36,803 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:17:14,839 INFO s.Launcher [main] Connected to /127.0.0.1:57419
+2022-06-19 10:17:14,885 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57419], selector=sun.nio.ch.WindowsSelectorImpl@d278d2b, interestOps=1, readyOps=1
+2022-06-19 10:17:14,887 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:17:14,983 INFO s.Launcher [Thread-0] Request net.Request@1b4825fa
+2022-06-19 10:17:41,707 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:17:41,708 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:17:41,708 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:57419
+2022-06-19 10:20:52,409 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:20:52,675 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:20:52,717 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:20:52,900 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:20:52,905 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:20:53,103 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:20:53,198 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:20:53,206 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:20:59,909 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:21:00,064 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:21:22,045 INFO s.Launcher [main] Connected to /127.0.0.1:59561
+2022-06-19 10:21:22,334 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59561], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:21:22,335 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:21:22,442 INFO s.Launcher [Thread-0] Request net.Request@6431cade
+2022-06-19 10:21:22,479 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:21:22,481 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:21:22,484 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:59561
+2022-06-19 10:21:29,107 INFO s.Launcher [main] Connected to /127.0.0.1:51888
+2022-06-19 10:21:29,108 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51888], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:21:29,109 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:21:29,122 INFO s.Launcher [Thread-1] Request net.Request@31389071
+2022-06-19 10:21:33,831 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 10:21:33,831 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 10:21:33,832 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:51888
+2022-06-19 10:21:33,870 INFO s.Launcher [main] Connected to /127.0.0.1:60980
+2022-06-19 10:21:33,874 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60980], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:21:33,875 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 10:21:33,880 INFO s.Launcher [Thread-2] Request net.Request@1cf1c4da
+2022-06-19 10:21:33,885 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 10:21:33,885 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 10:21:33,886 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:60980
+2022-06-19 10:21:42,187 INFO s.Launcher [main] Connected to /127.0.0.1:49879
+2022-06-19 10:21:42,189 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49879], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:21:42,190 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 10:21:42,193 INFO s.Launcher [Thread-3] Request net.Request@735ee20e
+2022-06-19 10:21:42,196 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 10:21:42,197 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 10:21:42,198 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:49879
+2022-06-19 10:22:07,364 INFO s.Launcher [main] Connected to /127.0.0.1:62664
+2022-06-19 10:22:07,366 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62664], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:22:07,367 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 10:22:07,370 INFO s.Launcher [Thread-4] Request net.Request@ff085a5
+2022-06-19 10:22:07,374 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 10:22:07,375 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 10:22:07,376 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:62664
+2022-06-19 10:22:25,495 INFO s.Launcher [main] Connected to /127.0.0.1:64800
+2022-06-19 10:22:25,501 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:64800], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:22:25,506 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 10:22:25,567 INFO s.Launcher [Thread-5] Request net.Request@42b0764d
+2022-06-19 10:22:29,915 INFO j.DBEngine [pool-12-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@39801ace
+2022-06-19 10:22:30,526 ERROR r.PostgreRepository [pool-12-thread-1] ERROR: invalid value "и" for "MM"
+  Подробности: Value must be an integer.
+2022-06-19 10:23:04,834 ERROR m.RequestHandler [pool-12-thread-1] java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+2022-06-19 10:25:20,903 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:25:21,138 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:25:21,218 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:25:21,282 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:25:21,287 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:25:21,411 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:25:21,478 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:25:21,484 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:25:21,510 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:25:21,663 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:25:32,793 INFO s.Launcher [main] Connected to /127.0.0.1:59467
+2022-06-19 10:25:32,803 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59467], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:25:32,805 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:25:32,936 INFO s.Launcher [Thread-0] Request net.Request@4f789fb5
+2022-06-19 10:25:33,013 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:25:33,015 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:25:33,016 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:59467
+2022-06-19 10:25:59,962 INFO s.Launcher [main] Connected to /127.0.0.1:58636
+2022-06-19 10:25:59,964 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58636], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:25:59,966 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:25:59,970 INFO s.Launcher [Thread-1] Request net.Request@c8d2d7c
+2022-06-19 10:25:59,977 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 10:25:59,979 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 10:25:59,982 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:58636
+2022-06-19 10:25:59,985 INFO s.Launcher [main] Connected to /127.0.0.1:58637
+2022-06-19 10:25:59,987 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58637], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:25:59,988 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 10:25:59,996 INFO s.Launcher [Thread-2] Request net.Request@2064764
+2022-06-19 10:26:00,003 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 10:26:00,004 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 10:26:00,004 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:58637
+2022-06-19 10:29:02,022 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:29:02,240 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:29:02,280 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:29:02,353 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:29:02,358 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:29:02,501 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:29:02,573 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:29:02,577 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:29:02,596 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:29:02,751 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:29:15,628 INFO s.Launcher [main] Connected to /127.0.0.1:61703
+2022-06-19 10:29:15,680 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61703], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:29:15,698 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:29:15,806 INFO s.Launcher [Thread-0] Request net.Request@38647aab
+2022-06-19 10:29:15,862 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:29:15,863 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:29:15,864 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:61703
+2022-06-19 10:29:15,868 INFO s.Launcher [main] Connected to /127.0.0.1:61704
+2022-06-19 10:29:15,870 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61704], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 10:29:15,871 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:29:15,878 INFO s.Launcher [Thread-1] Request net.Request@65696a70
+2022-06-19 10:29:15,958 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@c8d2d7c
+2022-06-19 10:29:16,011 ERROR r.PostgreRepository [pool-4-thread-1] Cannot commit when autoCommit is enabled.
+2022-06-19 10:29:16,014 ERROR m.RequestHandler [pool-4-thread-1] java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+2022-06-19 10:30:19,408 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:30:19,683 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:30:19,724 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:30:19,798 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:30:19,803 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:30:19,952 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:30:20,020 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:30:20,023 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:30:20,026 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:30:20,141 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:30:31,227 INFO s.Launcher [main] Connected to /127.0.0.1:57800
+2022-06-19 10:30:31,269 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57800], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:30:31,271 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:30:31,369 INFO s.Launcher [Thread-0] Request net.Request@450ef572
+2022-06-19 10:30:31,477 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:30:31,479 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:30:31,480 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:57800
+2022-06-19 10:30:53,349 INFO s.Launcher [main] Connected to /127.0.0.1:56220
+2022-06-19 10:30:53,352 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:56220], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:30:53,353 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:30:53,429 INFO s.Launcher [Thread-1] Request net.Request@5cc49085
+2022-06-19 10:34:44,137 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:34:44,401 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:34:44,439 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:34:44,644 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:34:44,651 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:34:44,855 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:34:44,921 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:34:44,924 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:34:44,928 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:34:45,038 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:35:02,325 INFO s.Launcher [main] Connected to /127.0.0.1:57407
+2022-06-19 10:35:02,558 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57407], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:35:02,559 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:35:02,684 INFO s.Launcher [Thread-0] Request net.Request@524f403a
+2022-06-19 10:35:02,715 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:35:02,717 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:35:02,718 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:57407
+2022-06-19 10:35:25,387 INFO s.Launcher [main] Connected to /127.0.0.1:54055
+2022-06-19 10:35:25,390 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:54055], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:35:25,393 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:35:25,407 INFO s.Launcher [Thread-1] Request net.Request@31722e19
+2022-06-19 10:35:25,462 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 10:35:25,464 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 10:35:25,464 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:54055
+2022-06-19 10:35:40,478 INFO s.Launcher [main] Connected to /127.0.0.1:54057
+2022-06-19 10:35:40,530 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:54057], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:35:40,532 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 10:35:40,578 INFO s.Launcher [Thread-2] Request net.Request@2e962cc6
+2022-06-19 10:35:42,764 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@29b49dbe
+2022-06-19 10:35:43,485 ERROR r.PostgreRepository [pool-6-thread-1] ERROR: conflicting values for "mm" field in formatting string
+  Подробности: This value contradicts a previous setting for the same field type.
+2022-06-19 10:41:55,083 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:41:55,349 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:41:55,394 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:41:55,464 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:41:55,467 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:41:55,608 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:41:55,671 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:41:55,674 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:41:55,678 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:41:55,787 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:41:59,417 INFO s.Launcher [main] Connected to /127.0.0.1:55323
+2022-06-19 10:41:59,438 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55323], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:41:59,440 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:41:59,579 INFO s.Launcher [Thread-0] Request net.Request@322786af
+2022-06-19 10:41:59,641 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:41:59,642 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:41:59,643 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:55323
+2022-06-19 10:42:27,584 INFO s.Launcher [main] Connected to /127.0.0.1:55059
+2022-06-19 10:42:27,589 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55059], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:42:27,590 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:42:27,622 INFO s.Launcher [Thread-1] Request net.Request@4b0cd814
+2022-06-19 10:42:30,931 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@6c406641
+2022-06-19 10:42:32,948 ERROR m.RequestHandler [pool-4-thread-1] java.lang.NullPointerException: date must not be null
+2022-06-19 10:43:14,108 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:43:14,375 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:43:14,416 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:43:14,498 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:43:14,504 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:43:14,654 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:43:14,711 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:43:14,715 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:43:14,719 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:43:14,823 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:43:22,081 INFO s.Launcher [main] Connected to /127.0.0.1:49157
+2022-06-19 10:43:22,092 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49157], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:43:22,093 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:43:22,209 INFO s.Launcher [Thread-0] Request net.Request@322786af
+2022-06-19 10:43:22,297 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:43:22,299 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:43:22,300 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:49157
+2022-06-19 10:43:37,182 INFO s.Launcher [main] Connected to /127.0.0.1:60172
+2022-06-19 10:43:37,186 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60172], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:43:37,187 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 10:43:37,223 INFO s.Launcher [Thread-1] Request net.Request@4b0cd814
+2022-06-19 10:43:39,461 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@6c406641
+2022-06-19 10:45:18,987 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 10:45:19,271 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 10:45:19,302 INFO l.UserManager [main] Loading login manager...
+2022-06-19 10:45:19,365 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 10:45:19,370 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 10:45:19,502 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 10:45:19,606 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 10:45:19,611 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 10:45:19,614 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 10:45:19,808 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 10:45:22,119 INFO s.Launcher [main] Connected to /127.0.0.1:49331
+2022-06-19 10:45:22,165 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49331], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:45:22,170 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 10:45:22,292 INFO s.Launcher [Thread-0] Request net.Request@322786af
+2022-06-19 10:45:22,379 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 10:45:22,381 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 10:45:22,381 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:49331
+2022-06-19 10:45:42,220 INFO s.Launcher [main] Connected to /127.0.0.1:63640
+2022-06-19 10:46:29,801 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63640], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 10:46:29,803 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:02:27,562 INFO s.Launcher [Thread-1] Request net.Request@4b0cd814
+2022-06-19 11:02:29,224 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@3c00c7eb
+2022-06-19 11:02:50,156 ERROR m.RequestHandler [pool-4-thread-1] java.lang.NullPointerException: date must not be null
+2022-06-19 11:03:26,768 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:03:27,037 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:03:27,073 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:03:27,148 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:03:27,153 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:03:27,342 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:03:27,408 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:03:27,411 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:03:27,415 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:03:27,545 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:04:07,361 INFO s.Launcher [main] Connected to /127.0.0.1:58862
+2022-06-19 11:04:11,604 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58862], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:04:11,605 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:04:11,826 INFO s.Launcher [Thread-0] Request net.Request@673d2bfb
+2022-06-19 11:04:11,879 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:04:11,880 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:04:11,881 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:58862
+2022-06-19 11:04:23,468 INFO s.Launcher [main] Connected to /127.0.0.1:58863
+2022-06-19 11:04:25,143 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58863], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:04:25,144 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:04:25,146 INFO s.Launcher [Thread-1] Request net.Request@256265de
+2022-06-19 11:04:25,150 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:04:25,152 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:04:25,155 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:58863
+2022-06-19 11:04:39,582 INFO s.Launcher [main] Connected to /127.0.0.1:58864
+2022-06-19 11:10:17,674 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:10:17,960 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:10:18,017 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:10:18,109 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:10:18,114 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:10:18,267 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:10:18,340 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:10:18,343 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:10:18,348 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:10:22,771 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:10:34,319 INFO s.Launcher [main] Connected to /127.0.0.1:61031
+2022-06-19 11:10:40,367 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61031], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:10:40,368 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:10:43,768 INFO s.Launcher [Thread-0] Request net.Request@7b8c881f
+2022-06-19 11:10:47,266 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:10:47,267 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:10:47,269 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:61031
+2022-06-19 11:10:53,490 INFO s.Launcher [main] Connected to /127.0.0.1:61032
+2022-06-19 11:11:00,323 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61032], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:11:00,324 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:11:00,338 INFO s.Launcher [Thread-1] Request net.Request@c40c50e
+2022-06-19 11:11:00,390 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:11:00,391 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:11:00,391 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:61032
+2022-06-19 11:11:16,615 INFO s.Launcher [main] Connected to /127.0.0.1:62125
+2022-06-19 11:11:33,911 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62125], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:11:33,912 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:11:42,817 INFO s.Launcher [Thread-2] Request net.Request@ad4178b
+2022-06-19 11:11:46,205 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@3bf364af
+2022-06-19 11:11:51,392 ERROR r.PostgreRepository [pool-6-thread-1] ERROR: duplicate key value violates unique constraint "humanbeing_pkey"
+  Подробности: Key (primarykey)=(main) already exists.
+2022-06-19 11:12:20,366 ERROR m.RequestHandler [pool-6-thread-1] java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+2022-06-19 11:12:43,906 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:12:44,169 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:12:44,205 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:12:44,270 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:12:44,274 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:12:44,445 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:12:44,519 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:12:44,524 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:12:44,541 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:12:44,743 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:13:05,623 INFO s.Launcher [main] Connected to /127.0.0.1:60699
+2022-06-19 11:13:05,634 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60699], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:13:05,636 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:13:05,736 INFO s.Launcher [Thread-0] Request net.Request@38647aab
+2022-06-19 11:13:05,794 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:13:05,795 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:13:05,796 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:60699
+2022-06-19 11:13:18,729 INFO s.Launcher [main] Connected to /127.0.0.1:62596
+2022-06-19 11:13:18,731 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62596], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:13:18,732 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:13:18,734 INFO s.Launcher [Thread-1] Request net.Request@6f910100
+2022-06-19 11:13:18,741 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:13:18,743 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:13:18,743 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:62596
+2022-06-19 11:13:22,979 INFO s.Launcher [main] Connected to /127.0.0.1:55960
+2022-06-19 11:13:25,918 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55960], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:13:25,920 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:13:25,934 INFO s.Launcher [Thread-2] Request net.Request@3f570cf7
+2022-06-19 11:13:26,049 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@8fe2c14
+2022-06-19 11:13:36,005 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 11:13:36,006 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 11:13:36,015 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:55960
+2022-06-19 11:13:41,904 INFO s.Launcher [main] Connected to /127.0.0.1:49669
+2022-06-19 11:13:41,905 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49669], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:13:41,906 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 11:13:41,908 INFO s.Launcher [Thread-3] Request net.Request@2838345b
+2022-06-19 11:13:41,910 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 11:13:41,911 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 11:13:41,912 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:49669
+2022-06-19 11:13:57,005 INFO s.Launcher [main] Connected to /127.0.0.1:65125
+2022-06-19 11:13:57,010 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:65125], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:13:57,016 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 11:13:57,026 INFO s.Launcher [Thread-4] Request net.Request@268cf710
+2022-06-19 11:14:02,907 INFO j.DBEngine [pool-10-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@69f39b08
+2022-06-19 11:14:07,135 ERROR r.PostgreRepository [pool-10-thread-1] ERROR: duplicate key value violates unique constraint "humanbeing_pkey"
+  Подробности: Key (primarykey)=(main) already exists.
+2022-06-19 11:15:23,562 ERROR m.RequestHandler [pool-10-thread-1] java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+2022-06-19 11:15:45,503 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:15:45,787 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:15:45,826 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:15:45,895 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:15:45,899 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:15:46,093 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:15:46,159 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:15:46,164 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:15:46,177 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:15:46,333 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:15:49,912 INFO s.Launcher [main] Connected to /127.0.0.1:54964
+2022-06-19 11:15:49,956 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:54964], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:15:49,957 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:15:50,066 INFO s.Launcher [Thread-0] Request net.Request@7ef8ecca
+2022-06-19 11:15:50,136 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:15:50,137 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:15:50,137 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:54964
+2022-06-19 11:16:12,059 INFO s.Launcher [main] Connected to /127.0.0.1:60330
+2022-06-19 11:16:12,060 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60330], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:16:12,064 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:16:12,080 INFO s.Launcher [Thread-1] Request net.Request@65a855c4
+2022-06-19 11:16:12,092 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:16:12,098 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:16:12,099 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:60330
+2022-06-19 11:18:08,132 INFO s.Launcher [main] Connected to /127.0.0.1:55097
+2022-06-19 11:18:08,134 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:55097], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:18:08,135 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:18:08,158 INFO s.Launcher [Thread-2] Request net.Request@26f15c0c
+2022-06-19 11:18:08,175 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 11:18:08,176 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 11:18:08,177 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:55097
+2022-06-19 11:18:32,050 INFO s.Launcher [main] Connected to /127.0.0.1:65246
+2022-06-19 11:18:32,058 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:65246], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:18:32,059 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 11:18:32,105 INFO s.Launcher [Thread-3] Request net.Request@504fd82d
+2022-06-19 11:18:35,065 INFO j.DBEngine [pool-8-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@258831f8
+2022-06-19 11:19:49,100 ERROR r.PostgreRepository [pool-8-thread-1] ERROR: duplicate key value violates unique constraint "humanbeing_pkey"
+  Подробности: Key (primarykey)=(main1) already exists.
+2022-06-19 11:20:42,909 ERROR m.RequestHandler [pool-8-thread-1] java.lang.NullPointerException: Cannot invoke "java.util.Collection.toArray()" because "c" is null
+2022-06-19 11:21:03,014 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:21:03,244 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:21:03,283 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:21:03,360 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:21:03,365 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:21:03,534 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:21:03,714 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:21:03,718 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:21:03,734 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:21:03,825 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:21:11,218 INFO s.Launcher [main] Connected to /127.0.0.1:62866
+2022-06-19 11:21:11,262 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62866], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:21:11,266 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:21:11,414 INFO s.Launcher [Thread-0] Request net.Request@4f789fb5
+2022-06-19 11:21:11,476 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:21:11,478 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:21:11,479 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:62866
+2022-06-19 11:21:30,444 INFO s.Launcher [main] Connected to /127.0.0.1:62867
+2022-06-19 11:21:30,447 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62867], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:21:30,450 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:21:30,465 INFO s.Launcher [Thread-1] Request net.Request@570e2acd
+2022-06-19 11:21:33,541 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@5f3d476b
+2022-06-19 11:22:02,618 ERROR r.PostgreRepository [pool-4-thread-1] ERROR: duplicate key value violates unique constraint "humanbeing_pkey"
+  Подробности: Key (primarykey)=(main2) already exists.
+2022-06-19 11:24:17,016 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:24:17,240 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:24:17,275 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:24:17,349 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:24:17,354 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:24:17,488 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:24:17,553 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:24:17,557 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:24:17,575 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:24:17,691 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:24:21,877 INFO s.Launcher [main] Connected to /127.0.0.1:49567
+2022-06-19 11:24:21,921 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49567], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:24:21,923 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:24:22,078 INFO s.Launcher [Thread-0] Request net.Request@4f789fb5
+2022-06-19 11:24:22,185 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:24:22,187 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:24:22,188 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:49567
+2022-06-19 11:24:36,986 INFO s.Launcher [main] Connected to /127.0.0.1:62488
+2022-06-19 11:24:36,988 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62488], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:24:36,989 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:24:36,992 INFO s.Launcher [Thread-1] Request net.Request@59230d66
+2022-06-19 11:24:36,996 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:24:36,997 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:24:36,997 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:62488
+2022-06-19 11:24:51,071 INFO s.Launcher [main] Connected to /127.0.0.1:57473
+2022-06-19 11:24:51,072 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57473], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:24:51,075 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:24:51,079 INFO s.Launcher [Thread-2] Request net.Request@291380e
+2022-06-19 11:24:51,083 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 11:24:51,085 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 11:24:51,086 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:57473
+2022-06-19 11:25:07,151 INFO s.Launcher [main] Connected to /127.0.0.1:63223
+2022-06-19 11:25:07,191 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63223], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:25:07,205 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 11:25:07,239 INFO s.Launcher [Thread-3] Request net.Request@1ca4b2c8
+2022-06-19 11:27:14,505 INFO j.DBEngine [pool-8-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@7d8dbe5d
+2022-06-19 11:27:22,220 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 11:27:22,220 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 11:27:22,221 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:63223
+2022-06-19 11:28:35,997 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:28:36,220 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:28:36,271 FATAL j.DBEngine [main] org.postgresql.util.PSQLException: ERROR: type "datetime" does not exist
+  Позиция: 308
+2022-06-19 11:30:29,266 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:30:29,529 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:30:29,610 INFO j.DBEngine [main] Creating public.humanbeing table
+2022-06-19 11:30:29,614 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:30:29,735 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:30:29,739 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:30:29,864 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:30:29,925 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:30:29,928 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:30:29,932 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:30:30,102 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:30:36,976 INFO s.Launcher [main] Connected to /127.0.0.1:63945
+2022-06-19 11:30:36,985 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63945], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:30:36,987 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:30:37,133 INFO s.Launcher [Thread-0] Request net.Request@450ef572
+2022-06-19 11:30:37,245 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:30:37,247 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:30:37,248 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:63945
+2022-06-19 11:30:56,126 INFO s.Launcher [main] Connected to /127.0.0.1:60436
+2022-06-19 11:30:56,129 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60436], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:30:56,130 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:30:56,195 INFO s.Launcher [Thread-1] Request net.Request@1ac0e484
+2022-06-19 11:31:00,240 INFO j.DBEngine [pool-4-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@6c406641
+2022-06-19 11:31:09,828 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:31:09,829 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:31:09,829 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:60436
+2022-06-19 11:32:00,573 INFO s.Launcher [main] Connected to /127.0.0.1:61181
+2022-06-19 11:32:00,577 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61181], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:32:00,580 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:32:00,593 INFO s.Launcher [Thread-2] Request net.Request@78c0f882
+2022-06-19 11:32:00,609 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 11:32:00,610 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 11:32:00,610 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:61181
+2022-06-19 11:32:50,919 INFO s.Launcher [main] Connected to /127.0.0.1:51651
+2022-06-19 11:32:50,921 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51651], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:32:50,922 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 11:32:50,925 INFO s.Launcher [Thread-3] Request net.Request@6378db63
+2022-06-19 11:32:50,931 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 11:32:50,932 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 11:32:50,933 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:51651
+2022-06-19 11:33:17,092 INFO s.Launcher [main] Connected to /127.0.0.1:49300
+2022-06-19 11:33:17,093 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49300], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:33:17,094 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 11:33:17,097 INFO s.Launcher [Thread-4] Request net.Request@5060d870
+2022-06-19 11:33:17,101 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 11:33:17,102 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 11:33:17,103 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:49300
+2022-06-19 11:33:34,187 INFO s.Launcher [main] Connected to /127.0.0.1:50138
+2022-06-19 11:33:34,189 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50138], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:33:34,191 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 11:33:34,195 INFO s.Launcher [Thread-5] Request net.Request@7ce6c879
+2022-06-19 11:33:34,199 INFO m.ResponseSender [pool-13-thread-1] Sending response...
+2022-06-19 11:33:34,200 INFO m.ResponseSender [pool-13-thread-1] Packages number: 1
+2022-06-19 11:33:34,202 INFO m.ResponseSender [pool-13-thread-1] Disconnecting from /127.0.0.1:50138
+2022-06-19 11:33:56,323 INFO s.Launcher [main] Connected to /127.0.0.1:58814
+2022-06-19 11:33:56,325 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58814], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:33:56,326 INFO s.Launcher [Thread-6] Processing new request on Thread-6
+2022-06-19 11:33:56,332 INFO s.Launcher [Thread-6] Request net.Request@7d809f9d
+2022-06-19 11:33:56,435 INFO j.DBEngine [pool-14-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@49bd896e
+2022-06-19 11:34:06,654 INFO m.ResponseSender [pool-15-thread-1] Sending response...
+2022-06-19 11:34:06,655 INFO m.ResponseSender [pool-15-thread-1] Packages number: 1
+2022-06-19 11:34:06,656 INFO m.ResponseSender [pool-15-thread-1] Disconnecting from /127.0.0.1:58814
+2022-06-19 11:36:27,979 INFO s.Launcher [main] Connected to /127.0.0.1:61650
+2022-06-19 11:36:27,982 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61650], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:36:27,983 INFO s.Launcher [Thread-7] Processing new request on Thread-7
+2022-06-19 11:36:27,987 INFO s.Launcher [Thread-7] Request net.Request@29798254
+2022-06-19 11:36:27,991 INFO m.ResponseSender [pool-17-thread-1] Sending response...
+2022-06-19 11:36:27,992 INFO m.ResponseSender [pool-17-thread-1] Packages number: 1
+2022-06-19 11:36:27,993 INFO m.ResponseSender [pool-17-thread-1] Disconnecting from /127.0.0.1:61650
+2022-06-19 11:36:35,959 INFO s.Launcher [main] Connected to /127.0.0.1:58017
+2022-06-19 11:36:35,961 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58017], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:36:35,962 INFO s.Launcher [Thread-8] Processing new request on Thread-8
+2022-06-19 11:36:35,964 INFO s.Launcher [Thread-8] Request net.Request@23034a33
+2022-06-19 11:36:35,968 INFO m.ResponseSender [pool-19-thread-1] Sending response...
+2022-06-19 11:36:35,968 INFO m.ResponseSender [pool-19-thread-1] Packages number: 1
+2022-06-19 11:36:35,969 INFO m.ResponseSender [pool-19-thread-1] Disconnecting from /127.0.0.1:58017
+2022-06-19 11:36:49,948 INFO s.Launcher [main] Connected to /127.0.0.1:50831
+2022-06-19 11:36:49,950 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50831], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:36:49,951 INFO s.Launcher [Thread-9] Processing new request on Thread-9
+2022-06-19 11:36:49,953 INFO s.Launcher [Thread-9] Request net.Request@39c76e88
+2022-06-19 11:36:49,956 INFO m.ResponseSender [pool-21-thread-1] Sending response...
+2022-06-19 11:36:49,956 INFO m.ResponseSender [pool-21-thread-1] Packages number: 1
+2022-06-19 11:36:49,957 INFO m.ResponseSender [pool-21-thread-1] Disconnecting from /127.0.0.1:50831
+2022-06-19 11:37:04,203 INFO s.Launcher [main] Connected to /127.0.0.1:62651
+2022-06-19 11:37:04,205 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:62651], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:37:04,206 INFO s.Launcher [Thread-10] Processing new request on Thread-10
+2022-06-19 11:37:04,209 INFO s.Launcher [Thread-10] Request net.Request@4f461f2b
+2022-06-19 11:37:04,213 INFO m.ResponseSender [pool-23-thread-1] Sending response...
+2022-06-19 11:37:04,214 INFO m.ResponseSender [pool-23-thread-1] Packages number: 1
+2022-06-19 11:37:04,215 INFO m.ResponseSender [pool-23-thread-1] Disconnecting from /127.0.0.1:62651
+2022-06-19 11:37:22,835 INFO s.Launcher [main] Connected to /127.0.0.1:52112
+2022-06-19 11:37:22,837 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52112], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:37:22,839 INFO s.Launcher [Thread-11] Processing new request on Thread-11
+2022-06-19 11:37:22,844 INFO s.Launcher [Thread-11] Request net.Request@7d77441d
+2022-06-19 11:37:22,978 INFO j.DBEngine [pool-24-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@5815e297
+2022-06-19 11:37:37,199 INFO m.ResponseSender [pool-25-thread-1] Sending response...
+2022-06-19 11:37:37,200 INFO m.ResponseSender [pool-25-thread-1] Packages number: 1
+2022-06-19 11:37:37,200 INFO m.ResponseSender [pool-25-thread-1] Disconnecting from /127.0.0.1:52112
+2022-06-19 11:38:38,752 INFO s.Launcher [main] Connected to /127.0.0.1:58001
+2022-06-19 11:38:38,753 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58001], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:38:38,754 INFO s.Launcher [Thread-12] Processing new request on Thread-12
+2022-06-19 11:38:38,755 INFO s.Launcher [Thread-12] Request net.Request@25b670ad
+2022-06-19 11:38:38,758 INFO m.ResponseSender [pool-27-thread-1] Sending response...
+2022-06-19 11:38:38,759 INFO m.ResponseSender [pool-27-thread-1] Packages number: 1
+2022-06-19 11:38:38,759 INFO m.ResponseSender [pool-27-thread-1] Disconnecting from /127.0.0.1:58001
+2022-06-19 11:38:53,551 INFO s.Launcher [main] Connected to /127.0.0.1:52734
+2022-06-19 11:38:53,554 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52734], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:38:53,556 INFO s.Launcher [Thread-13] Processing new request on Thread-13
+2022-06-19 11:38:53,563 INFO s.Launcher [Thread-13] Request net.Request@5adee02f
+2022-06-19 11:39:11,166 INFO j.DBEngine [pool-28-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@72de8611
+2022-06-19 11:39:45,521 INFO m.ResponseSender [pool-29-thread-1] Sending response...
+2022-06-19 11:39:45,522 INFO m.ResponseSender [pool-29-thread-1] Packages number: 1
+2022-06-19 11:39:45,524 INFO m.ResponseSender [pool-29-thread-1] Disconnecting from /127.0.0.1:52734
+2022-06-19 11:40:57,490 INFO s.Launcher [main] Connected to /127.0.0.1:54808
+2022-06-19 11:40:57,491 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:54808], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:40:57,492 INFO s.Launcher [Thread-14] Processing new request on Thread-14
+2022-06-19 11:40:57,494 INFO s.Launcher [Thread-14] Request net.Request@38161eb5
+2022-06-19 11:40:57,499 INFO m.ResponseSender [pool-31-thread-1] Sending response...
+2022-06-19 11:40:57,499 INFO m.ResponseSender [pool-31-thread-1] Packages number: 1
+2022-06-19 11:40:57,501 INFO m.ResponseSender [pool-31-thread-1] Disconnecting from /127.0.0.1:54808
+2022-06-19 11:41:16,810 INFO s.Launcher [main] Connected to /127.0.0.1:51874
+2022-06-19 11:41:16,812 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51874], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:41:16,814 INFO s.Launcher [Thread-15] Processing new request on Thread-15
+2022-06-19 11:41:16,817 INFO s.Launcher [Thread-15] Request net.Request@29f4ac6c
+2022-06-19 11:41:16,830 INFO m.ResponseSender [pool-33-thread-1] Sending response...
+2022-06-19 11:41:16,831 INFO m.ResponseSender [pool-33-thread-1] Packages number: 1
+2022-06-19 11:41:16,832 INFO m.ResponseSender [pool-33-thread-1] Disconnecting from /127.0.0.1:51874
+2022-06-19 11:42:09,865 INFO s.Launcher [main] Connected to /127.0.0.1:61264
+2022-06-19 11:42:09,869 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61264], selector=sun.nio.ch.WindowsSelectorImpl@5a5338df, interestOps=1, readyOps=1
+2022-06-19 11:42:09,870 INFO s.Launcher [Thread-16] Processing new request on Thread-16
+2022-06-19 11:42:09,874 INFO s.Launcher [Thread-16] Request net.Request@45208681
+2022-06-19 11:42:18,172 INFO j.DBEngine [pool-34-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@17becbf5
+2022-06-19 11:42:48,818 INFO m.ResponseSender [pool-35-thread-1] Sending response...
+2022-06-19 11:42:48,819 INFO m.ResponseSender [pool-35-thread-1] Packages number: 1
+2022-06-19 11:42:48,819 INFO m.ResponseSender [pool-35-thread-1] Disconnecting from /127.0.0.1:61264
+2022-06-19 11:44:54,830 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:44:55,046 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:44:55,080 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:44:55,151 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:44:55,157 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:44:55,252 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:44:55,323 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:44:55,328 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:44:55,345 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:44:55,457 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:45:59,937 INFO s.Launcher [main] Connected to /127.0.0.1:58571
+2022-06-19 11:46:00,170 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58571], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:46:00,171 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:46:00,275 INFO s.Launcher [Thread-0] Request net.Request@7ef8ecca
+2022-06-19 11:46:00,320 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:46:00,322 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:46:00,323 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:58571
+2022-06-19 11:46:58,246 INFO s.Launcher [main] Connected to /127.0.0.1:65321
+2022-06-19 11:46:58,249 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:65321], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:46:58,251 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:46:58,254 INFO s.Launcher [Thread-1] Request net.Request@7fb71181
+2022-06-19 11:46:58,306 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 11:46:58,307 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 11:46:58,308 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:65321
+2022-06-19 11:47:19,379 INFO s.Launcher [main] Connected to /127.0.0.1:61532
+2022-06-19 11:47:19,381 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61532], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:47:19,383 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 11:47:19,387 INFO s.Launcher [Thread-2] Request net.Request@26e8cd4b
+2022-06-19 11:47:19,396 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 11:47:19,397 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 11:47:19,397 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:61532
+2022-06-19 11:51:42,286 INFO s.Launcher [main] Connected to /127.0.0.1:51617
+2022-06-19 11:51:42,288 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51617], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:51:42,289 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 11:51:42,291 INFO s.Launcher [Thread-3] Request net.Request@7f634b1b
+2022-06-19 11:51:42,300 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 11:51:42,301 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 11:51:42,302 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:51617
+2022-06-19 11:53:05,981 INFO s.Launcher [main] Connected to /127.0.0.1:53979
+2022-06-19 11:53:13,489 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:53979], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:53:13,490 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 11:53:13,495 INFO s.Launcher [Thread-4] Request net.Request@2e648d5d
+2022-06-19 11:53:13,514 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 11:53:13,515 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 11:53:13,515 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:53979
+2022-06-19 11:53:50,297 INFO s.Launcher [main] Connected to /127.0.0.1:53984
+2022-06-19 11:54:52,425 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:53984], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:54:52,426 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 11:54:52,429 INFO s.Launcher [Thread-5] Request net.Request@470f9c34
+2022-06-19 11:56:25,743 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:56:26,000 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:56:26,034 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:56:26,096 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:56:26,100 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:56:26,216 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:56:26,278 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:56:26,282 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:56:26,298 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:56:26,424 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 11:56:37,610 INFO s.Launcher [main] Connected to /127.0.0.1:63376
+2022-06-19 11:56:37,651 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63376], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:56:37,652 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 11:56:37,734 INFO s.Launcher [Thread-0] Request net.Request@23ec7798
+2022-06-19 11:57:28,860 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 11:57:28,862 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 11:57:28,863 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:63376
+2022-06-19 11:57:41,077 INFO s.Launcher [main] Connected to /127.0.0.1:49506
+2022-06-19 11:57:41,079 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:49506], selector=sun.nio.ch.WindowsSelectorImpl@258d79be, interestOps=1, readyOps=1
+2022-06-19 11:57:41,081 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 11:57:41,083 INFO s.Launcher [Thread-1] Request net.Request@3ebe2f68
+2022-06-19 11:59:03,616 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 11:59:03,899 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 11:59:03,941 INFO l.UserManager [main] Loading login manager...
+2022-06-19 11:59:04,021 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 11:59:04,026 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 11:59:04,221 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 11:59:04,283 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 11:59:04,286 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 11:59:04,302 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 11:59:04,409 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 12:00:34,292 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 12:00:34,586 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 12:00:34,633 INFO l.UserManager [main] Loading login manager...
+2022-06-19 12:00:34,706 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 12:00:34,712 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 12:00:34,846 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 12:00:34,963 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 12:00:34,967 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 12:01:43,343 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 12:01:43,648 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 12:01:43,695 INFO l.UserManager [main] Loading login manager...
+2022-06-19 12:01:43,761 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 12:01:43,765 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 12:01:44,047 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 12:01:44,115 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 12:01:44,118 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 12:01:48,886 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 12:01:49,029 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 12:01:55,400 INFO s.Launcher [main] Connected to /127.0.0.1:56962
+2022-06-19 12:01:55,444 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:56962], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:01:55,445 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 12:01:55,571 INFO s.Launcher [Thread-0] Request net.Request@2ff3a3af
+2022-06-19 12:02:01,283 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 12:02:01,286 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 12:02:01,288 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:56962
+2022-06-19 12:03:21,188 INFO s.Launcher [main] Connected to /127.0.0.1:59856
+2022-06-19 12:03:21,190 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59856], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:03:21,191 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 12:03:21,204 INFO s.Launcher [Thread-1] Request net.Request@110c8c56
+2022-06-19 12:03:21,216 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 12:03:21,218 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 12:03:21,219 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:59856
+2022-06-19 12:03:41,333 INFO s.Launcher [main] Connected to /127.0.0.1:59861
+2022-06-19 12:03:41,339 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:59861], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:03:41,343 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 12:03:41,388 INFO s.Launcher [Thread-2] Request net.Request@65c06983
+2022-06-19 12:03:41,475 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@ff085a5
+2022-06-19 12:03:41,509 ERROR r.PostgreRepository [pool-6-thread-1] ERROR: syntax error at or near ")"
+  Позиция: 174
+2022-06-19 12:03:41,515 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 12:03:41,515 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 12:03:41,516 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:59861
+2022-06-19 12:03:56,448 INFO s.Launcher [main] Connected to /127.0.0.1:60599
+2022-06-19 12:03:56,449 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:60599], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:03:56,451 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 12:03:56,454 INFO s.Launcher [Thread-3] Request net.Request@16daf0e1
+2022-06-19 12:03:56,460 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 12:03:56,461 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 12:03:56,461 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:60599
+2022-06-19 12:05:13,497 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 12:05:13,799 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 12:05:13,834 INFO l.UserManager [main] Loading login manager...
+2022-06-19 12:05:13,897 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 12:05:13,902 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 12:05:13,917 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 12:05:14,001 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 12:05:14,005 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 12:05:14,014 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 12:05:14,066 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 12:06:32,628 INFO s.Launcher [main] Connected to /127.0.0.1:52571
+2022-06-19 12:06:32,636 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52571], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:06:32,638 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 12:06:32,715 INFO s.Launcher [Thread-0] Request net.Request@6518aa56
+2022-06-19 12:06:32,755 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 12:06:32,756 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 12:06:32,757 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:52571
+2022-06-19 12:07:19,971 INFO s.Launcher [main] Connected to /127.0.0.1:57428
+2022-06-19 12:07:19,972 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57428], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:07:19,973 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 12:07:19,974 INFO s.Launcher [Thread-1] Request net.Request@c8d2d7c
+2022-06-19 12:07:19,978 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 12:07:19,978 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 12:07:19,979 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:57428
+2022-06-19 12:07:31,011 INFO s.Launcher [main] Connected to /127.0.0.1:51396
+2022-06-19 12:07:31,012 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51396], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:07:31,012 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 12:07:31,014 INFO s.Launcher [Thread-2] Request net.Request@8fe2c14
+2022-06-19 12:07:31,018 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 12:07:31,018 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 12:07:31,019 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:51396
+2022-06-19 12:07:48,175 INFO s.Launcher [main] Connected to /127.0.0.1:63127
+2022-06-19 12:07:48,176 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:63127], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:07:48,177 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 12:07:48,192 INFO s.Launcher [Thread-3] Request net.Request@504fd82d
+2022-06-19 12:07:48,249 INFO j.DBEngine [pool-8-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@499d64c5
+2022-06-19 12:07:57,933 ERROR r.PostgreRepository [pool-8-thread-1] ERROR: syntax error at or near ")"
+  Позиция: 174
+2022-06-19 12:07:57,936 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 12:07:57,936 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 12:07:57,936 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:63127
+2022-06-19 12:10:28,543 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 12:10:28,724 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 12:10:28,760 INFO l.UserManager [main] Loading login manager...
+2022-06-19 12:10:28,809 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 12:10:28,812 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 12:10:28,821 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 12:10:28,983 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 12:10:28,986 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 12:10:28,992 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 12:10:29,026 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 12:10:31,364 INFO s.Launcher [main] Connected to /127.0.0.1:54614
+2022-06-19 12:10:31,374 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:54614], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:10:31,375 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 12:10:31,402 INFO s.Launcher [Thread-0] Request net.Request@6a947c88
+2022-06-19 12:10:31,424 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 12:10:31,424 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 12:10:31,425 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:54614
+2022-06-19 12:10:53,548 INFO s.Launcher [main] Connected to /127.0.0.1:57790
+2022-06-19 12:10:53,549 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:57790], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:10:53,550 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 12:10:53,555 INFO s.Launcher [Thread-1] Request net.Request@d72ba1d
+2022-06-19 12:10:53,562 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 12:10:53,563 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 12:10:53,563 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:57790
+2022-06-19 12:11:14,708 INFO s.Launcher [main] Connected to /127.0.0.1:61528
+2022-06-19 12:11:14,710 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:61528], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:11:14,711 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 12:11:14,715 INFO s.Launcher [Thread-2] Request net.Request@7a559579
+2022-06-19 12:11:14,765 INFO j.DBEngine [pool-6-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@570b40f9
+2022-06-19 12:11:18,898 ERROR r.PostgreRepository [pool-6-thread-1] ERROR: column "car_cool" is of type boolean but expression is of type character varying
+  Подсказка: You will need to rewrite or cast the expression.
+  Позиция: 111
+2022-06-19 12:11:18,901 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 12:11:18,902 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 12:11:18,902 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:61528
+2022-06-19 12:11:22,774 INFO s.Launcher [main] Connected to /127.0.0.1:58859
+2022-06-19 12:11:22,774 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:58859], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:11:22,775 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 12:11:22,776 INFO s.Launcher [Thread-3] Request net.Request@75db61c
+2022-06-19 12:11:22,780 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 12:11:22,780 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 12:11:22,781 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:58859
+2022-06-19 12:12:36,208 INFO j.DBEngine [main] PostgreSQL driver is fine.
+2022-06-19 12:12:36,399 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@9816741
+2022-06-19 12:12:36,427 INFO l.UserManager [main] Loading login manager...
+2022-06-19 12:12:36,476 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@2438dcd
+2022-06-19 12:12:36,480 INFO l.UserManager [main] LoginManager loaded
+2022-06-19 12:12:36,490 INFO r.PostgreRepository [main] Loading PostgreSQL repository...
+2022-06-19 12:12:36,546 INFO j.DBEngine [main] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@28194a50
+2022-06-19 12:12:36,550 INFO r.PostgreRepository [main] Reading data from database
+2022-06-19 12:12:36,562 INFO r.PostgreRepository [main] Repository loaded
+2022-06-19 12:12:36,614 INFO s.Launcher [main] Starting server on localhost/127.0.0.1:65100
+2022-06-19 12:16:02,046 INFO s.Launcher [main] Connected to /127.0.0.1:53125
+2022-06-19 12:16:02,161 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:53125], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:16:02,162 INFO s.Launcher [Thread-0] Processing new request on Thread-0
+2022-06-19 12:16:02,189 INFO s.Launcher [Thread-0] Request net.Request@6a947c88
+2022-06-19 12:16:02,239 INFO j.DBEngine [pool-2-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@5776eaa2
+2022-06-19 12:16:02,249 INFO l.UserManager [pool-2-thread-1] Created user login.User@bafb7bd1
+2022-06-19 12:16:02,255 INFO m.ResponseSender [pool-3-thread-1] Sending response...
+2022-06-19 12:16:02,255 INFO m.ResponseSender [pool-3-thread-1] Packages number: 1
+2022-06-19 12:16:02,256 INFO m.ResponseSender [pool-3-thread-1] Disconnecting from /127.0.0.1:53125
+2022-06-19 12:16:10,079 INFO s.Launcher [main] Connected to /127.0.0.1:51131
+2022-06-19 12:16:10,080 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51131], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:16:10,081 INFO s.Launcher [Thread-1] Processing new request on Thread-1
+2022-06-19 12:16:10,082 INFO s.Launcher [Thread-1] Request net.Request@f371b6e
+2022-06-19 12:16:10,094 INFO m.ResponseSender [pool-5-thread-1] Sending response...
+2022-06-19 12:16:10,095 INFO m.ResponseSender [pool-5-thread-1] Packages number: 1
+2022-06-19 12:16:10,095 INFO m.ResponseSender [pool-5-thread-1] Disconnecting from /127.0.0.1:51131
+2022-06-19 12:16:15,108 INFO s.Launcher [main] Connected to /127.0.0.1:51134
+2022-06-19 12:16:15,109 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51134], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:16:15,110 INFO s.Launcher [Thread-2] Processing new request on Thread-2
+2022-06-19 12:16:15,111 INFO s.Launcher [Thread-2] Request net.Request@23357c9a
+2022-06-19 12:16:15,113 INFO m.ResponseSender [pool-7-thread-1] Sending response...
+2022-06-19 12:16:15,113 INFO m.ResponseSender [pool-7-thread-1] Packages number: 1
+2022-06-19 12:16:15,114 INFO m.ResponseSender [pool-7-thread-1] Disconnecting from /127.0.0.1:51134
+2022-06-19 12:16:21,160 INFO s.Launcher [main] Connected to /127.0.0.1:51135
+2022-06-19 12:16:21,161 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51135], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:16:21,162 INFO s.Launcher [Thread-3] Processing new request on Thread-3
+2022-06-19 12:16:21,166 INFO s.Launcher [Thread-3] Request net.Request@59c951e3
+2022-06-19 12:16:21,171 INFO m.ResponseSender [pool-9-thread-1] Sending response...
+2022-06-19 12:16:21,172 INFO m.ResponseSender [pool-9-thread-1] Packages number: 1
+2022-06-19 12:16:21,173 INFO m.ResponseSender [pool-9-thread-1] Disconnecting from /127.0.0.1:51135
+2022-06-19 12:16:45,405 INFO s.Launcher [main] Connected to /127.0.0.1:51136
+2022-06-19 12:16:45,406 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:51136], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:16:45,407 INFO s.Launcher [Thread-4] Processing new request on Thread-4
+2022-06-19 12:16:45,409 INFO s.Launcher [Thread-4] Request net.Request@548feffd
+2022-06-19 12:16:45,410 INFO m.ResponseSender [pool-11-thread-1] Sending response...
+2022-06-19 12:16:45,411 INFO m.ResponseSender [pool-11-thread-1] Packages number: 1
+2022-06-19 12:16:45,411 INFO m.ResponseSender [pool-11-thread-1] Disconnecting from /127.0.0.1:51136
+2022-06-19 12:17:39,922 INFO s.Launcher [main] Connected to /127.0.0.1:52205
+2022-06-19 12:17:39,940 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:52205], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:17:39,941 INFO s.Launcher [Thread-5] Processing new request on Thread-5
+2022-06-19 12:17:39,948 INFO s.Launcher [Thread-5] Request net.Request@9c59b9a
+2022-06-19 12:18:25,582 INFO s.Launcher [main] Connected to /127.0.0.1:50286
+2022-06-19 12:18:25,583 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50286], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:18:25,584 INFO s.Launcher [Thread-6] Processing new request on Thread-6
+2022-06-19 12:18:25,588 INFO s.Launcher [Thread-6] Request net.Request@598a80a3
+2022-06-19 12:18:25,593 INFO m.ResponseSender [pool-15-thread-1] Sending response...
+2022-06-19 12:18:25,593 INFO m.ResponseSender [pool-15-thread-1] Packages number: 1
+2022-06-19 12:18:25,597 INFO m.ResponseSender [pool-15-thread-1] Disconnecting from /127.0.0.1:50286
+2022-06-19 12:18:25,601 INFO s.Launcher [main] Connected to /127.0.0.1:50288
+2022-06-19 12:18:25,603 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50288], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:18:25,604 INFO s.Launcher [Thread-7] Processing new request on Thread-7
+2022-06-19 12:18:25,607 INFO s.Launcher [Thread-7] Request net.Request@61a34a25
+2022-06-19 12:18:25,640 INFO j.DBEngine [pool-12-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@437f8160
+2022-06-19 12:18:29,598 INFO j.DBEngine [pool-16-thread-1] PostgreSQL creation created: org.postgresql.jdbc.PgConnection@130473
+2022-06-19 12:18:29,600 INFO m.ResponseSender [pool-13-thread-1] Sending response...
+2022-06-19 12:18:29,600 INFO m.ResponseSender [pool-13-thread-1] Packages number: 1
+2022-06-19 12:18:29,601 INFO m.ResponseSender [pool-13-thread-1] Disconnecting from /127.0.0.1:52205
+2022-06-19 12:18:33,919 INFO m.ResponseSender [pool-17-thread-1] Sending response...
+2022-06-19 12:18:33,919 INFO m.ResponseSender [pool-17-thread-1] Packages number: 1
+2022-06-19 12:18:33,920 INFO m.ResponseSender [pool-17-thread-1] Disconnecting from /127.0.0.1:50288
+2022-06-19 12:18:46,439 INFO s.Launcher [main] Connected to /127.0.0.1:50292
+2022-06-19 12:18:46,440 INFO s.Launcher [main] Starting new thread for channel=java.nio.channels.SocketChannel[connected local=/127.0.0.1:65100 remote=/127.0.0.1:50292], selector=sun.nio.ch.WindowsSelectorImpl@68d279ec, interestOps=1, readyOps=1
+2022-06-19 12:18:46,440 INFO s.Launcher [Thread-8] Processing new request on Thread-8
+2022-06-19 12:18:46,443 INFO s.Launcher [Thread-8] Request net.Request@5d2bdbc9
+2022-06-19 12:18:46,445 INFO m.ResponseSender [pool-19-thread-1] Sending response...
+2022-06-19 12:18:46,445 INFO m.ResponseSender [pool-19-thread-1] Packages number: 1
+2022-06-19 12:18:46,446 INFO m.ResponseSender [pool-19-thread-1] Disconnecting from /127.0.0.1:50292
